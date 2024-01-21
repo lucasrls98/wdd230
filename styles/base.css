@@ -1,4 +1,9 @@
-@import url(./colors.css);
+:root{
+    --blue: #006eb6;
+    --white: rgb(254, 250, 250);
+
+
+}
 
 
 body{
@@ -119,9 +124,8 @@ body{
 }
 
 footer p{
-    height: 150px;
+    height: 100px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--blue);
@@ -131,3 +135,4 @@ footer p{
 
 
 }
+
