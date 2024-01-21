@@ -49,7 +49,7 @@ body{
     place-items: center;
 }
 
-#link{
+.navLink{
     
     text-decoration: none;
     color: var(--white);
@@ -57,10 +57,10 @@ body{
     font-size: 1.5rem;
 }
 
-#link:hover{
+.navLink:hover{
     cursor: pointer;
     font-weight: 500;
-    transform: scale(1.05);
+    transform: scale(1.08);
     transition: 0.4s;
 }
 
@@ -118,7 +118,7 @@ body{
 
 
 }
-#activitiesItems{
+.activitiesItems {
     font-size: 1.4rem;
     margin:0 0 15px 30px;
 }
