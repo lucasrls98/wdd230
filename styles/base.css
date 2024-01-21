@@ -13,7 +13,7 @@ body{
     justify-content: center;
     gap: 50px;
     padding: 50px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 2rem;
     color: var(--white);
@@ -65,7 +65,10 @@ body{
 }
 .activitiesTitle{
     border-bottom: 1px solid black;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    
     
     
 }
@@ -74,17 +77,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 140px;
     background-color: #fff;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    align-items: center;
     border: 1px solid black;
+    gap: 50px;
     border-radius: 5px;
-    height: 300px;
+    height: 550px;
     margin: 2rem;
     font-family: "Roboto", sans-serif;
 
@@ -92,11 +95,11 @@ body{
 }
 
 .card h3{
-    font-size: 1.5rem;
+    font-size: 2rem;
     
 }
 .subtitle{
-    height: 40px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,6 +107,13 @@ body{
     background-color: var(--blue);
     color: var(--white);
     width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
 
 
+
+}
+#activitiesItems{
+    font-size: 1.4rem;
+    margin:0 0 15px 30px;
 }
