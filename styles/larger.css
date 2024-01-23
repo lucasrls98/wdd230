@@ -25,4 +25,16 @@
     .subtitle{
         height: 100px;
     }
+
+    .activitiesTitle{
+        text-align: center;
+    }
+
+    .activityLink{
+        padding: 8px;
+    }
+
+    .card p{
+        padding: 1rem;
+    }
 }
