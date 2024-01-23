@@ -1,0 +1,28 @@
+@media screen and (max-width: 500px) {
+
+    h1{
+        width: 110%;
+    }
+    .titlePic{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .listLinks{
+        display: flex;
+        flex-direction: column;
+    }
+    .navMenu{
+        height: 400px;
+        
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .subtitle{
+        height: 100px;
+    }
+}

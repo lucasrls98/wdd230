@@ -37,16 +37,17 @@ body{
 
 .navMenu{
     background-color: black;
-    height: 400px;
+    height: 100px;
     
 }
 
 .listLinks{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 50px;
     padding: 20px;
-    place-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .navLink{
