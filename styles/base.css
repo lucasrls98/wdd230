@@ -37,7 +37,7 @@ body{
 
 .navMenu{
     background-color: black;
-    height: 360px;
+    height: 400px;
     
 }
 
@@ -123,13 +123,15 @@ body{
     margin:0 0 15px 30px;
 }
 
-footer p{
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+footer{
     background-color: var(--blue);
     color: var(--white);
+}
+footer p{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
     font-family: "Roboto", sans-serif;
     font-size: 1.3rem;
 
